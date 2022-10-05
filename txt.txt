@@ -1,0 +1,4 @@
+react, reactDOM 사용
+JSX 사용 -> babel jsx를 이해할수있게 바꿔서 head에 담아놓음
+
+컴포넌트 첫글자는 반드시 대문자! -> 아니면 html의 태그로 착각함
