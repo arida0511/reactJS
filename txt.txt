@@ -2,3 +2,8 @@ react, reactDOM 사용
 JSX 사용 -> babel jsx를 이해할수있게 바꿔서 head에 담아놓음
 
 컴포넌트 첫글자는 반드시 대문자! -> 아니면 html의 태그로 착각함
+
+const [counter, modifier] = React.useState(0);
+
+
+<Btn text={value} onClick={changeValue} /> //이건 이벤트리스너를 추가한게 아님. 스타일은 버튼에 직접적으로 바뀌지 않음. props로 갖고와서 바꿔야함.
